@@ -14,6 +14,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="../../css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="../../css/font-awesome.min.css">
         <link rel="stylesheet" href="../../css/main.css">
+        <link rel="icon" href="../../image/trefle2.ico">
 
         <style>
             body{
@@ -25,41 +26,58 @@ and open the template in the editor.
         </style>
     </head>
     <body class="skin-blue sidebar-mini">
+        <div class="filtre-bg"></div>
         <header class="main-header">
-            <nav class="navbar-expand-lg navbar-light row margin-left-right">
-                <a class="navbar-brand col-md-2 margin-left-right" href="../../index.html">
-                    <img src="../../image/bruno.jpg" class="text-left col-md-6 img-absolute margin-left-right" alt="Bruno Brochard"/>
-                    <span class="text-right col-md-6 float-right" >Bruno Brochard</span>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand col-md-3 margin-left-right nav-md" href="../../index.html">
+                    <img src="../../image/bruno.jpg" class="text-left col-md-4 img-absolute margin-left-right" alt="Bruno Brochard"/>
+                    <span class="col-md-8 float-right" >Bruno Brochard</span>
                 </a>
-                <div class="collapse navbar-collapse col-md-10 margin-left-right padding-left-50" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto row margin-left-right" style="width: 100%;">
-                        <li class="nav-item dropdown col-md-2">
-                            <a class="nav-link dropdown-toggle" href="../../pages/hypnose/hypnose.html" id="navbarDropdown" data-toggle="dropdown">
+                <button class="navbar-toggler collapsed" id="button-collapse" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-md-8" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto" style="width: 100%;">
+                        <li class="nav-item nav-xs col-md-2">
+                            <a href="../../index.html" class="nav-link" >Accueil</a>
+                        </li>
+                        <li class="nav-item dropdown col-md-2 nav-md">
+                            <a class="nav-link dropdown-toggle" href="../hypnose/hypnose.html" id="navbarDropdown" role="button" data-toggle="dropdown">
                                 Hypnose
                             </a>
                             <div class="dropdown-menu hypnose-dropdown" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="../../pages/hypnose/hypnose.html" >Application</a>
-                                <a class="dropdown-item"  href="../../pages/hypnose/hypnose2.html" >Hypnose Humaniste</a>
-                                <a class="dropdown-item"  href="../../pages/hypnose/hypnose3.html" >Histoire de l'hypnose</a>
+                                <a class="dropdown-item" href="../hypnose/hypnose.html" >Application</a>
+                                <a class="dropdown-item"  href="../hypnose/hypnose2.html" >Hypnose Humaniste</a>
+                                <a class="dropdown-item"  href="../hypnose/hypnose3.html" >Histoire de l'hypnose</a>
                             </div>
                         </li>
-                        <li class="nav-item col-md-2">
-                            <a href="../../pages/reflexologie/reflexologie.html" class="nav-link" >Reflexologie</a>
+                        <li class="nav-item nav-xs col-md-2">
+                            <a href="../hypnose/hypnose.html" class="nav-link" >Application de l'hypnose</a>
+                        </li>
+                        <li class="nav-item nav-xs col-md-2">
+                            <a href="../hypnose/hypnose2.html" class="nav-link" >Hypnose Humaniste</a>
+                        </li>
+                        <li class="nav-item nav-xs col-md-2">
+                            <a href="../hypnose/hypnose3.html" class="nav-link" >Histoire de l'hypnose</a>
                         </li>
                         <li class="nav-item col-md-2">
-                            <a href="../../pages/lahochi/lahochi.html" class="nav-link">LaHochi</a>
+                            <a href="../reflexologie/reflexologie.html" class="nav-link" >Reflexologie</a>
                         </li>
                         <li class="nav-item col-md-2">
-                            <a href="../../pages/references/references.html" class="nav-link" >Références</a>
+                            <a href="../lahochi/lahochi.html" class="nav-link">LaHochi</a>
                         </li>
                         <li class="nav-item col-md-2">
-                            <a href="../../pages/prix/prix.html" class="nav-link" >Tarif des séances</a>
+                            <a href="../references/references.html" class="nav-link" >Références</a>
                         </li>
                         <li class="nav-item col-md-2">
-                            <a href="../../pages/contact/contact.html" class="nav-link" >Contact</a>
+                            <a href="../prix/prix.html" class="nav-link" >Tarif des séances</a>
+                        </li>
+                        <li class="nav-item col-md-2">
+                            <a href="../contact/contact.html" class="nav-link" >Contact</a>
                         </li>
                     </ul>
                 </div>
+                <img src="../../image/trefle2.png" class="col-md-1" alt="logo" id="logo"/>
             </nav>
         </header>
 
@@ -79,7 +97,7 @@ and open the template in the editor.
                         </a>
                     </span>
                 </div>
-                <div class="footer-copyright text-center col-md-6 color-darkgrey">
+                <div class="footer-copyright text-center col-md-6 color-darkgrey font-xs">
                     ces soins ne se substituent pas à un avis médical
                     et ne remplacent pas la prise de médicaments
                 </div>
@@ -96,7 +114,7 @@ and open the template in the editor.
                     </li>
                     <li class="list-inline-item">
                         <a href="https://www.doctolib.fr/hypnotherapeute/alencon/bruno-brochard?utm_campaign=website-button&amp;utm_source=bruno-brochard-website-button&amp;utm_medium=referral&amp;utm_content=option-5&amp;utm_term=bruno-brochard"
-                           class="btn-floating mx-1" target="_blank" data-reactroot="">
+                            class="btn-floating mx-1" target="_blank" data-reactroot="">
                             <img class="bg-color-grey" style="height:25px;margin-bottom:3px;vertical-align:middle;width:auto;border-radius: 15px; padding: 5px 0 5px 0" src="https://pro.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib"/>
                         </a>
                     </li>
