@@ -85,6 +85,12 @@ footer{
 .color-darkgrey{
     color: rgb(50,50,50,1);
 }
+.bg-light-oppacity{
+    background-color: rgb(251,251,251,70%);
+    color: rgb(50,50,50,1);
+    border-radius: 10px;
+    padding: 20px;
+}
 @media (min-width: 990px) {
     .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
         display: block;
