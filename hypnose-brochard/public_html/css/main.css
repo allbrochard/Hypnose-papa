@@ -91,6 +91,24 @@ footer{
     border-radius: 10px;
     padding: 20px;
 }
+.font-14{
+    font-size: 14px;
+}
+.padding-15{
+    padding: 15px 0 15px 0;
+}
+.font-30{
+    font-size: 30px;
+}
+.font-20{
+    font-size: 20px;
+}
+.size-img-ref{
+    width: 15%;
+}
+#navbarSupportedContent{
+    font-size:14px;
+}
 @media (min-width: 990px) {
     .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
         display: block;
