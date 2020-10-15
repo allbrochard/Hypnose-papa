@@ -17,4 +17,27 @@ $(document).ready(function(){
             element.classList.add('show');
         }
     });
+    $("#conscience-button").click(function(){
+        var element = document.getElementById('conscience');
+        if( element.classList.contains('show')){
+            element.classList.remove('show');
+            element.classList.add('d-none');
+        }
+        else{
+            element.classList.add('show');
+            element.classList.remove('d-none');
+        }
+    });
+    $("#commande-button").click(function(){
+        var element = document.getElementById('commande');
+        if( element.classList.contains('show')){
+            element.classList.remove('show');
+            element.classList.add('d-none');
+        }
+        else{
+            element.classList.add('show');
+            element.classList.remove('d-none');
+        }
+    });
+    
 });   

@@ -107,7 +107,7 @@ footer{
     width: 15%;
 }
 #navbarSupportedContent{
-    font-size:14px;
+    font-size:20px;
 }
 @media (min-width: 990px) {
     .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
