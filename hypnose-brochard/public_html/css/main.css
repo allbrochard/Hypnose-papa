@@ -36,7 +36,6 @@ footer{
 }
 .main-header{
     background-color: rgb(251,251,251,70%);  
-    margin-bottom: 110px;
 }
 .page-footer{
     background-color: rgb(251,251,251,70%);  
@@ -103,11 +102,58 @@ footer{
 .font-20{
     font-size: 20px;
 }
-.size-img-ref{
-    width: 15%;
-}
 #navbarSupportedContent{
     font-size:20px;
+}
+#conscience {
+  opacity: 1;
+  transition: opacity 1s;
+}
+#conscience.hide {
+  opacity: 0;
+}
+#commande {
+  opacity: 1;
+  transition: opacity 1s;
+}
+#commande.hide {
+  opacity: 0;
+}
+.container-fluid {
+    padding-bottom: 15px;
+}
+.font-600{
+    font-weight: 600;
+}
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
+.item-overflow{
+    overflow: hidden;
+    white-space: nowrap;
+}
+.img-hypnose{
+    height: 200px;
+    width: auto;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 @media (min-width: 990px) {
     .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
@@ -131,6 +177,18 @@ footer{
     #navbarSupportedContent{
         text-align: center;
     }
+    #logo{
+        display: block;
+    }
+    .xs-show{
+        display: none;
+    }
+    .main-header{
+        margin-bottom: 110px;
+    }
+    .size-img-ref{
+        width: 15%;
+    }
 }
 @media (max-width: 990px) {
     .nav-md{
@@ -142,6 +200,20 @@ footer{
     #logo{
         height: 50px;
         width: auto;
+        display: none;
+    }
+    #logo-xs{
+        height: 50px;
+        width: auto;
+    }
+    .xs-show{
+        display: block;
+    }
+    .main-header{
+        margin-bottom: 15px;
+    }
+    .size-img-ref{
+        width: 25%;
     }
 }
 

@@ -18,28 +18,30 @@ and open the template in the editor.
 
         <style>
             body{
-                background-image: url("../../image/hypnose.jpg");
+                background-image: url("../../image/hypnose.jpg");    
+                background-size: auto;
             }
         </style>
     </head>
     <body class="skin-blue sidebar-mini">
-        <div class="filtre-bg"></div>
         <header class="main-header">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand col-md-3 margin-left-right nav-md" href="../../index.html">
                     <img src="../../image/bruno.jpg" class="text-left col-md-4 img-absolute margin-left-right" alt="Bruno Brochard"/>
                     <span class="col-md-8 float-right" >Bruno Brochard</span>
                 </a>
-                <button class="navbar-toggler collapsed" id="button-collapse" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler collapsed col-2" id="button-collapse" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <h5 class="xs-show col-5">Histoire de l'hypnose</h5>
+                <img src="../../image/trefle2.png" class="col-md-1 xs-show col-5" alt="logo" id="logo-xs">
                 <div class="collapse navbar-collapse col-md-8" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto" style="width: 100%;">
                         <li class="nav-item nav-xs col-md-2">
                             <a href="../../index.html" class="nav-link" >Accueil</a>
                         </li>
-                        <li class="nav-item dropdown col-md-2 nav-md active">
-                            <a class="nav-link dropdown-toggle" href="../hypnose/hypnose.html" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        <li class="nav-item dropdown col-md-2 nav-md active ">
+                            <a class="nav-link dropdown-toggle item-overflow" href="../hypnose/hypnose.html" id="navbarDropdown" role="button" data-toggle="dropdown">
                                 Hypnose
                             </a>
                             <div class="dropdown-menu hypnose-dropdown" aria-labelledby="navbarDropdown">
@@ -48,38 +50,138 @@ and open the template in the editor.
                                 <a class="dropdown-item"  href="../hypnose/hypnose3.html" >Histoire de l'hypnose</a>
                             </div>
                         </li>
-                        <li class="nav-item nav-xs col-md-2">
+                        <li class="nav-item nav-xs col-md-2 item-overflow">
                             <a href="../hypnose/hypnose.html" class="nav-link" >Application de l'hypnose</a>
                         </li>
-                        <li class="nav-item nav-xs col-md-2">
+                        <li class="nav-item nav-xs col-md-2 item-overflow">
                             <a href="../hypnose/hypnose2.html" class="nav-link" >Hypnose Humaniste</a>
                         </li>
-                        <li class="nav-item nav-xs col-md-2 active">
+                        <li class="nav-item nav-xs col-md-2 item-overflow active">
                             <a href="../hypnose/hypnose3.html" class="nav-link" >Histoire de l'hypnose</a>
                         </li>
-                        <li class="nav-item col-md-2">
+                        <li class="nav-item col-md-2 item-overflow">
                             <a href="../reflexologie/reflexologie.html" class="nav-link" >Réflexologie</a>
                         </li>
-                        <li class="nav-item col-md-2">
+                        <li class="nav-item col-md-2 item-overflow">
                             <a href="../lahochi/lahochi.html" class="nav-link">LaHochi</a>
                         </li>
-                        <li class="nav-item col-md-2">
+                        <li class="nav-item col-md-2 item-overflow">
                             <a href="../references/references.html" class="nav-link" >Références</a>
                         </li>
-                        <li class="nav-item col-md-2">
+                        <li class="nav-item col-md-2 item-overflow">
                             <a href="../prix/prix.html" class="nav-link" >Tarif des séances</a>
                         </li>
-                        <li class="nav-item col-md-2">
+                        <li class="nav-item col-md-2 item-overflow">
                             <a href="../contact/contact.html" class="nav-link" >Contact</a>
                         </li>
                     </ul>
                 </div>
-                <img src="../../image/trefle2.png" class="col-md-1" alt="logo" id="logo"/>
+                <img src="../../image/trefle2.png" class="col-md-1 xs-hide" alt="logo" id="logo"/>
             </nav>
         </header>
 
         <div class="container-fluid">
-            historique
+            <div class="offset-md-3 col-md-6 padding-15">
+                <div class="row">
+                    <h4 class="col-md-12 padding-bottom-20">Histoire de l'hypnose</h4>
+                    <p class="col-sm-8 font-600">	
+                        Il n’y a pas de technique unique, particulière : on est en transe légère au cinéma, en lisant un bon livre, lorsqu’on est amoureux,
+                        bien sûr, tout autant que pendant une cérémonie vaudou ou une techno-party… ou tout tranquillement, 
+                        en faisant de la «sophrologie» ou de la «méditation». 
+                        </br></br>
+                        Toutes les techniques d’Hypnose visent à produire un état modifié de conscience chez la personne,
+                        les différences sont dans les manières d’arriver à ce but , 
+                        dans l’esprit avec lequel est faite l’intervention hypnotique et dans l’objectif global visé de cette intervention.
+                    </p>
+                    <div class="col-sm-4 text-center">
+                        <img src="../../image/montagne.jpg" alt="" class="img-hypnose"/>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="offset-md-3 col-md-6 bg-light-oppacity" id="classique-button">
+                <h5>
+                    <strong >L'hypnose classique et semi-traditionnelle</strong>
+                    <span class="float-right">
+                        <i class="classique-arrow-up fa fa-chevron-up" style="display: none;"></i>
+                        <i class="classique-arrow-down fa fa-chevron-down"></i>
+                    </span>
+                </h5>
+                <div id="classique" style="display: none;">
+                    <p>	
+                        </br>
+                        C’est la première manière de pratiquer l’Hypnose et la plus simple. Elle se caractérise par l’aspect autoritaire et directif de l’hypnotiseur, parfois dominant. C’est une Hypnose utilisée surtout dans ses applications médicales ou psychosomatiques, parfois analytiques, et aussi celle que l’on voit dans les spectacles de music-hall.
+                        </br></br>
+                        En pratique, les hypnothérapeutes modernes n’utilisent plus l’Hypnose Classique pure, très directe. On lui préfère habituellement sa version “semi-traditionnelle” , toujours directive, mais non dominante et mélangée avec certains outils de l’Hypnose Ericksonienne et de la Nouvelle Hypnose
+                    </p>
+                </div>
+            </div>
+            </br>
+            <div class="offset-md-3 col-md-6 bg-light-oppacity" id="erickson-button">
+                <h5>
+                    <strong >L'hypnose Ericksonienne</strong>
+                    <span class="float-right">
+                        <i class="erickson-arrow-up fa fa-chevron-up" style="display: none;"></i>
+                        <i class="erickson-arrow-down fa fa-chevron-down"></i>
+                    </span>
+                </h5>
+                <div id="erickson" style="display: none;">
+                    <p>	
+                        </br>
+                        Techniquement beaucoup plus complexe que l’Hypnose Classique, cette forme d’hypnose tire son nom du psychiatre américain Milton Erickson (1901-1980). Elle dérive de l’observation des techniques thérapeutiques d’Erickson, hors hypnose, lui-même étant resté essentiellement “classique” dans son approche de l’Hypnose.
+                        </br></br>
+                        Erickson était plus une sorte de “manipulateur de nos automatismes” qu’un psychothérapeute, dans le sens auquel on l’entend aujourd’hui. Il avait l’art de provoquer les réactions adéquates pour orienter une personne vers l’arrêt de son symptôme – et les exemples d’applications de sa manière de pratiquer sont nombreux, bien que restreints à des domaines essentiellement “mécaniques” (énurésie, troubles obsessionnels, phobies, anesthésies, sexologie, etc.).
+                        </br></br>
+                        Milton Erickson pratiquait une psychothérapie “mécaniste”, “médicale” dans l’esprit, c’est-à-dire qu’il réparait ce qui était cassé, sans penser à la qualité de vie de la personne et encore moins à son développement personnel, toutes choses qui sont au coeur de la psychothérapie aujourd’hui.
+                        </br></br>
+                        C’est en réunissant les spécificités d’Erickson que s’est créée l’Hypnose qui porte son nom Et c’est cette base technique qui a été améliorée et augmentée, jusqu’à devenir la “Nouvelle Hypnose” actuelle.
+                    </p>
+                </div>
+            </div>
+            </br>
+            <div class="offset-md-3 col-md-6 bg-light-oppacity" id="nouvelle-button">
+                <h5>
+                    <strong >La nouvelle hypnose</strong>
+                    <span class="float-right">
+                        <i class="nouvelle-arrow-up fa fa-chevron-up" style="display: none;"></i>
+                        <i class="nouvelle-arrow-down fa fa-chevron-down"></i>
+                    </span>
+                </h5>
+                <div id="nouvelle" style="display: none;">
+                    <p>	
+                        </br>
+                        Notre temps est au libre arbitre de chacun, à l’autonomie et à la compréhension du sens de notre vie.
+                        </br></br>
+                        La Nouvelle Hypnose, terme inventé par le sexothérapeute Daniel Araoz en 1979, conserve certains des outils hypnotiques découverts chez Milton Erickson, en les faisant souvent considérablement évoluer (ex: le langage hypnotique, la technique du “saupoudrage”, les métaphores, etc.) et en ajoutant des techniques inédites (synchro, VAKOG, inductions hypnotiques participatives, communication subliminale multi-niveaux, structures PNL, etc.) dans un esprit moderne qui inclut les attentes actuelles, comme la préoccupation que l’on peut avoir par rapport à son confort de vie, ses relations aux autres, le couple, le développement personnel, etc.
+                        </br></br>
+                        Les techniques de base d’Erickson ne sont plus utilisées “à l’ancienne”, tellement elles ont évolué et sont devenues subtiles, douces et “cachées” (suggestions indirectes, subliminales, métaphores et symbolisme, structures thérapeutiques longues incorporées, etc.).
+                        </br></br>
+                        La Nouvelle Hypnose, encore souvent confondue et appelée à tort “Hypnose Ericksonienne”, est la forme d’hypnose thérapeutique habituellement pratiquée aujourd’hui, y compris par les hypnothérapeutes “éricksoniens”.
+                    </p>
+                </div>
+            </div>
+            </br>
+            <div class="offset-md-3 col-md-6 bg-light-oppacity" id="humaniste-button">
+                <h5>
+                    <strong >L'hypnose humaniste</strong>
+                    <span class="float-right">
+                        <i class="humaniste-arrow-up fa fa-chevron-up" style="display: none;"></i>
+                        <i class="humaniste-arrow-down fa fa-chevron-down"></i>
+                    </span>
+                </h5>
+                <div id="humaniste" style="display: none;">
+                    <p>	
+                        </br>
+                        Se plaçant aux antipodes des formes connues d’hypnose, l’Hypnose Humaniste revient aux sources millénaires des premiers thérapeutes et aide la personne à se reconnecter à elle-même comme aux courants naturels de la Vie. Les inductions hypnotiques, dites “en ouverture”, sont “inversées” – c’est-à-dire qu’elles tendent à modifier l’Etat Ordinaire de Conscience de la personne par augmentation de la conscience, plutôt que par diminution de la conscience – ce qui permet à la personne d’accéder elle-même à son Inconscient. Le thérapeute n’est alors plus qu’un guide, une main secourable sur le chemin personnel de la guérison.
+                        </br></br>
+                        L’Hypnose Humaniste se base sur les connaissances modernes de la psychologie, de la symbologie, de la physique, du cerveau et de l’esprit humain. Elle offre également une cosmologie complète, qui dépasse le cadre de la simple psychologie. Tout cela permet à l’hypnothérapeute humaniste de traiter des troubles psychologiques et physiologiques qui seraient autrement hors du domaine habituel de l’Hypnose.
+                        </br></br>
+                        L’Hypnose Humaniste cherche à combler la fracture originelle qui existe entre le conscient et l’Inconscient et ainsi à réunifier la personne en elle-même, l’aider à devenir “Un-Consciente”, au moins le temps du travail thérapeutique (puisque, même en Hypnose Humaniste, l’état modifié de conscience n’est qu’un état ponctuel, lié à l’hypnose, donc qui n’existe que pour la durée du travail thérapeutique). Cela permet un travail “en Conscience” sur les blessures inconscientes – où le thérapeute n’est donc qu’un guide, qui aide la personne à comprendre, guérir et grandir.
+                        </br></br>
+                        L’Hypnose Humaniste possède un modèle philosophique de compréhension des troubles humains (proche de la vision jungienne), les moyens d’y remédier et toutes les techniques nécessaires à cela. Le Sens des choses y est important, comme la connaissance de soi et le fait de grandir humainement.
+                    </p>
+                </div>
+            </div>
         </div>
 
         <footer class="page-footer font-small">
