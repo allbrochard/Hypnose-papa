@@ -186,8 +186,10 @@ footer{
     .main-header{
         margin-bottom: 60px;
     }
-    .size-img-ref{
-        width: 15%;
+    .ref-md-show{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 @media (max-width: 990px) {
@@ -213,10 +215,15 @@ footer{
         margin-bottom: 15px;
     }
     .size-img-ref{
-        width: 25%;
+        width: 50%;
     }
 }
-
+@media (max-width:1700) {
+    
+    .item-overflow{
+        font-size: 15px;
+    }
+}
 
 
 
