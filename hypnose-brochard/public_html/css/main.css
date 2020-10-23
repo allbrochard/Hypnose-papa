@@ -89,6 +89,7 @@ footer{
     color: rgb(50,50,50,1);
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 0 0 1rem rgba(0,0,0,.2)!important;
 }
 .font-14{
     font-size: 14px;
@@ -135,6 +136,9 @@ footer{
 .img-hypnose{
     height: 200px;
     width: auto;
+}
+.span-active{
+    color: rgba(0,0,0,.9);
 }
 /* width */
 ::-webkit-scrollbar {
@@ -200,13 +204,13 @@ footer{
         font-size: 12px;
     }
     #logo{
-        height: 50px;
-        width: auto;
+        height: auto;
+        width: 50px;
         display: none;
     }
     #logo-xs{
-        height: 50px;
-        width: auto;
+        height: auto;
+        width: 50px;
     }
     .xs-show{
         display: block;
@@ -217,11 +221,44 @@ footer{
     .size-img-ref{
         width: 50%;
     }
+    .xs-table{
+        font-size: 15px;    
+        padding-left: 0;
+        padding-right: 0; 
+    }
+    .xs-tarif{
+        padding-left: 15px;
+        padding-right: 15px; 
+    }
+    .xs-th{
+        display: none;
+    }
+    p{
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+    }
 }
-@media (max-width:1700) {
+@media (max-width:1700px) {
     
     .item-overflow{
         font-size: 15px;
+    }
+    .hideover1700{
+        display: block;
+    }
+}
+@media (min-width:1700px) {
+    
+    .hideover1700{
+        display: none;
+    }
+}
+@media (min-width:990px) and (max-width:1350px) {
+    
+    .hide1350{
+        display: none;
     }
 }
 
