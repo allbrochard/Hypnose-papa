@@ -178,4 +178,30 @@ $(document).ready(function(){
             $('.reprendre-arrow-up').show();
         }
     });
+    $("#objectif-button").click(function(){
+        var element = $('#objectif');
+        if( element.is(":visible")){
+            element.hide(150);
+            $('.objectif-arrow-up').hide();
+            $('.objectif-arrow-down').show();
+        }
+        else{
+            element.show(150);
+            $('.objectif-arrow-down').hide();
+            $('.objectif-arrow-up').show();
+        }
+    });
+    $("#principe-button").click(function(){
+        var element = $('#principe');
+        if( element.is(":visible")){
+            element.hide(150);
+            $('.principe-arrow-up').hide();
+            $('.principe-arrow-down').show();
+        }
+        else{
+            element.show(150);
+            $('.principe-arrow-down').hide();
+            $('.principe-arrow-up').show();
+        }
+    });
 });   

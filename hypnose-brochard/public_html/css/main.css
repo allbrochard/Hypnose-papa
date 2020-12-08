@@ -140,6 +140,13 @@ footer{
 .span-active{
     color: rgba(0,0,0,.9);
 }
+.hyperlink{
+    color: rgba(0,0,0,.7);
+}
+
+.hyperlink:hover{
+    color: rgba(0,0,0,.9);
+}
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -195,6 +202,12 @@ footer{
         top: 50%;
         transform: translateY(-50%);
     }
+    .large-float-right{
+        float:right;
+    }
+    .xs-middle{
+        display: none;
+    }
 }
 @media (max-width: 990px) {
     .nav-md{
@@ -238,6 +251,11 @@ footer{
     }
     h4{
         text-align: center;
+    }
+    .large-float-right{
+        display: none;
+    }
+    .xs-middle{
     }
 }
 @media (max-width:1700px) {
