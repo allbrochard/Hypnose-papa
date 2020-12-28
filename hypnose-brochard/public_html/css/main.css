@@ -147,6 +147,9 @@ footer{
 .hyperlink:hover{
     color: rgba(0,0,0,.9);
 }
+.img_refl{
+    width: 100%;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

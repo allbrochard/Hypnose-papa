@@ -126,6 +126,19 @@ $(document).ready(function(){
             $('.affronter-arrow-up').show();
         }
     });
+    $("#traumatismes-button").click(function(){
+        var element = $('#traumatismes');
+        if( element.is(":visible")){
+            element.hide(150);
+            $('.traumatismes-arrow-up').hide();
+            $('.traumatismes-arrow-down').show();
+        }
+        else{
+            element.show(150);
+            $('.traumatismes-arrow-down').hide();
+            $('.traumatismes-arrow-up').show();
+        }
+    });
     $("#resoudre-button").click(function(){
         var element = $('#resoudre');
         if( element.is(":visible")){
