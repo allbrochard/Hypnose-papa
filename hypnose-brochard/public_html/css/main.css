@@ -152,7 +152,7 @@ footer{
 }
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 
 /* Track */
@@ -168,6 +168,9 @@ footer{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+.hide1350{
+    display: none;
 }
 @media (min-width: 990px) {
     .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
@@ -279,6 +282,9 @@ footer{
 @media (min-width:990px) and (max-width:1350px) {
     
     .hide1350{
+        display: block;
+    }
+    .show1350{
         display: none;
     }
 }
