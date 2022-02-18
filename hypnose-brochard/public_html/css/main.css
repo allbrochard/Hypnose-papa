@@ -151,6 +151,9 @@ footer{
 .img_refl{
     width: 100%;
 }
+.italic-text{
+    font-size: 16px;
+}
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
